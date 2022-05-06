@@ -10,8 +10,9 @@
         android:id="@+id/textview_first"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_first_fragment"
-        app:layout_constraintBottom_toTopOf="@id/button_first"
+        android:layout_marginBottom="250dp"
+        android:text="@string/app_name"
+        app:layout_constraintBottom_toTopOf="@id/elfak_image_view"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -24,5 +25,26 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textview_first" />
+        app:layout_constraintTop_toBottomOf="@id/app_logo_image_view" />
+
+    <ImageView
+        android:id="@+id/elfak_image_view"
+        android:layout_width="119dp"
+        android:layout_height="119dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/elfak"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview_first" />
+
+    <ImageView
+        android:id="@+id/app_logo_image_view"
+        android:layout_width="119dp"
+        android:layout_height="111dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/pin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/elfak_image_view" />
 </androidx.constraintlayout.widget.ConstraintLayout>
