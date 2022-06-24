@@ -32,5 +32,8 @@
     <string name="editmyplace_title">Edit My Place</string>
 
     <string name="viewmyplace_finished_label">Close</string>
+    <string name="longitude_label">Longitude:</string>
+    <string name="latitude_label">Latitude:</string>
+    <string name="set_coord">Set</string>
 
 </resources>
